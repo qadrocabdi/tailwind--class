@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+
+
+     display: flex;
+background-color: black;
+width: 100%;
+height: 36px;
+justify-content: space-between;
+}
+.nav h4{
+    color: white  ;
+    padding:10px ;
+    margin-left: 50px;
+}
+.nav span{
+    color: orange;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul{
+     display: flex;
+}
+
+.nav ul li i{
+    color: white;
+padding: 10px;
+
+}
+.nav ul li :hover{
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(104, 102, 102, 0.5);
+    height: 80p;
+    width: 100%;
+}
+.navbarwithcontent{
+ background-image: url(bg.jpg);
+width: 100%;
+height: 600px;
+background-size: cover ;
+
+}
+.navbar h3{
+    margin-left: 50px;
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin-top: 30px;
+
+}
+.navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+color: orange;
+}
+.leftcontect h2{
+     color: white;
+     margin-left: 8%;
+     font-size: 40px;
+}
+.leftcontect{
+    margin-top: 50px;
+}
+.leftcontect h4{
+    color: white;
+    margin-left: 8%;
+    font-size: 20px;
+
+}
+.leftcontect p{
+color: white;
+margin-left: 8%;
+font-size: 20px;
+margin-bottom: 30px;
+}
+.leftcontect span{
+    color: blue;
+    cursor: pointer;
+
+}
+.leftcontect span:hover{
+    color: orange;
+    cursor: pointer;
+}
+.leftcontect .joinus{
+    margin-top: 8%;
+    background-color: red;
+    padding: 10px 28px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    
+    text-decoration: none;
+ }
+
+ .leftcontect .joinus:hover{
+    color: orange;
+    cursor: pointer;
+}
+.boxs{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.boxs .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(204, 34, 34,0.9);
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.boxs .box .icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+border: 2px solid yellow;
+margin-left: 30%;
+}
+.boxs .box .icon img{
+    width: 120px;
+    height: 120px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.boxs .box h3,p{
+text-align: center;    color: white;
+}
+.courses .course{
+    width: 270px;
+    height: 320px;
+    border-radius: 20px;
+    border: 2px solid;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.img{
+    background-image: url(bg.jpg);
+    width: 270px;
+    height: 150px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.img span{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.course h4{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+}
+.course p{
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.course button{
+    padding: 13px 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salaam university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="nav">
+    <h4>this is our website <span>salaamuniversity <span> official website</h4>
+        <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+
+        </ul>
+  </div>
+  <div class="navbarwithcontent">
+  <div class="navbar">
+    <h3>salaam university</h3>
+    <ul>
+        <li><A href="#"> home</A></li>
+        <li><A href="#"> about</A></li>
+        <li><A href="#">courses</A></li>
+        <li><A href="#">contact</A></li>
+        <li><A href="#"> sign up</A></li>
+         
+   
+    </ul>
+</div>
+<div class="leftcontect">
+    <h4>hello students</h4>
+    <h2>welcome to salaam university</h2>
+
+    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. consectetur <span>Lorem, ipsum. </span>elit. <br> Fugit, aspernatur.
+        lorem ipsum dolor Lorem ipsum dolor sit.  Lorem ipsum dolor <br>amet.sit amet . <span> Lorem, ipsum.</span>
+        <p>
+         <a href="" class="joinus"> joinus</a>
+</div>   
+  </div>  
+
+
+  <div class="boxs">
+    <div class="box">
+      <div class="icon">
+        <img src="website_5274809.png" alt="">
+      </div>
+      <h3>Web Devlopment</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, excepturi ea similique facilis assumenda earum alias laborum tempore! Saepe, quibusdam?</p>
+    </div>
+    <div class="box">
+      <div class="icon">
+        <img src="website_5274809.png" alt="">
+      </div>
+      <h3>Web Devlopment</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, excepturi ea similique facilis assumenda earum alias laborum tempore! Saepe, quibusdam?</p>
+    </div>
+    <div class="box">
+      <div class="icon">
+        <img src="website_5274809.png" alt="">
+      </div>
+      <h3>Web Devlopment</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, excepturi ea similique facilis assumenda earum alias laborum tempore! Saepe, quibusdam?</p>
+    </div>
+  </div>
+  <div class="courses">
+    <div class="course">
+      <div class="img">
+        <span>20$</span>
+      </div>
+      <h4>HTML</h4>
+      <p>Lorem ipsum dolor sit amet  adipisicing elit. Laboriosam quis repellendus hic consectetur repellat, praesentium asperiores ea quod vero! Ipsum!</p>
+      <button>Login</button>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>Salaam University</h3>
+  </div>
+</body>
+</html>

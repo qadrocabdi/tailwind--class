@@ -1,0 +1,32 @@
+.header{
+
+    background-color: rgb(227, 135, 23);
+padding: 20px;
+ border: 2px hsl(240, 55%, 37%) solid;
+ padding-top: 100px;
+ padding-right: 50px;
+ padding-bottom: 30px;
+ padding-left: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 650;
+    height: 250;
+
+}
+.main{
+    background-color: rgb(227, 135, 23);
+    padding: 1opx;
+    border: 2px hsl(240, 55%, 37%) solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 0%;
+
+    width: 700;
+    height: 180;
+    
+}
+media screen and (max-width:600px){
+    
+}
+

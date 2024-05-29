@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    *{
+    
+    font-family: "DM sans";
+    margin: 0;
+    padding: 0;
+}
+.header span{
+   color: rgb(179, 131, 71);
+
+}
+.header h1{
+    font-size: 30px;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+.header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.orderbtn{
+    background-color: rgb(142, 81, 81);
+    padding: 14px 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.signin{
+
+
+    background-color: white;
+    padding: 12px 50px;
+    font-size: 20px;
+    color: #a27b5c;
+    border: 2px   rgb(184, 144, 144) solid;
+    font-weight: bold;
+}
+
+
+.main{
+    background-color: #fcf7ef;
+    height: 600px;
+padding: 70px 0px;
+
+}
+.main h1{
+    font-size: 86px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.main img{
+    width:800px;
+    height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    margin-top: 12px;
+    
+}
+.main p{
+    text-align: center;
+}
+.main h2 ,h6{font-size: 15s0px;
+    margin-left: 150px;
+
+
+}
+
+.main h6{
+    color: tan;
+    font-weight: 200px;
+   
+
+}
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.blog p{
+    color: rgb(70, 6, 6);
+    font-weight: 200;
+}
+
+.blog img{
+    width: 260px;
+    height: 200px;
+}
+.blogm p{
+    color: rgb(158, 151, 151);
+    padding-top: 10px;
+}
+.blog h1{
+    margin-bottom: 10px;
+    
+}
+
+
+.footer{
+    background-color: black;
+    height: 500px;
+    
+    color: white;
+
+}
+
+.footer-address{
+    padding-top:40px ;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-left: 100px; 
+    margin-right: 100px;
+
+}
+.footer-address h1{
+    font-size:70px;
+    padding-bottom: 30px;
+}
+
+.icon-parent{
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    font-size: 20px;
+    gap: 30px;
+}
+.icon p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+
